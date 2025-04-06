@@ -1,0 +1,133 @@
+.navbar {
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.navbar-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0.75rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-logo {
+  color: #1877f2;
+  font-size: 1.5rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.navbar-search {
+  flex: 1;
+  max-width: 400px;
+  margin: 0 2rem;
+}
+
+.search-input {
+  width: 100%;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f2f5;
+  font-size: 0.875rem;
+}
+
+.search-input:focus {
+  outline: none;
+  background-color: #e4e6eb;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.login-button {
+  color: #1877f2;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.login-button:hover {
+  background-color: #f0f2f5;
+}
+
+.signup-button {
+  background-color: #42b72a;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+}
+
+.signup-button:hover {
+  background-color: #36a420;
+}
+
+.navbar-user {
+  position: relative;
+}
+
+.user-menu-button {
+  background: none;
+  border: none;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: background-color 0.2s;
+}
+
+.user-menu-button:hover {
+  background-color: #f0f2f5;
+}
+
+.user-icon {
+  font-size: 1.5rem;
+}
+
+.user-menu {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 0.5rem;
+  min-width: 200px;
+  margin-top: 0.5rem;
+}
+
+.menu-item {
+  display: block;
+  padding: 0.75rem 1rem;
+  color: #050505;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: background-color 0.2s;
+  width: 100%;
+  text-align: left;
+  border: none;
+  background: none;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.menu-item:hover {
+  background-color: #f0f2f5;
+}

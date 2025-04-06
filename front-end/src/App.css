@@ -1,0 +1,167 @@
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background-color: #f0f2f5;
+}
+
+/* App Layout */
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-content {
+  padding: 20px;
+  max-width: 600px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: #1877f2;
+  text-decoration: none;
+}
+
+.navbar-search input {
+  padding: 8px 12px;
+  border-radius: 20px;
+  border: none;
+  background-color: #f0f2f5;
+  width: 200px;
+}
+
+.navbar-right a {
+  color: #050505;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+/* Feed */
+.feed-container {
+  margin-top: 20px;
+}
+
+/* Post Styles */
+.post-item {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 12px 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #e4e6eb;
+  margin-right: 10px;
+}
+
+.post-author {
+  font-weight: 600;
+}
+
+.post-time {
+  font-size: 12px;
+  color: #65676b;
+  margin-top: 2px;
+}
+
+.post-content {
+  margin-bottom: 12px;
+}
+
+.post-actions {
+  display: flex;
+  border-top: 1px solid #dddfe2;
+  padding-top: 8px;
+}
+
+.post-action {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 8px;
+  border-radius: 4px;
+  cursor: pointer;
+  color: #65676b;
+  font-weight: 600;
+}
+
+.post-action:hover {
+  background-color: #f0f2f5;
+}
+
+/* Post Styles */
+.post-list {
+  margin-top: 20px;
+}
+
+.post-item {
+  background: white;
+  border-radius: 8px;
+  padding: 16px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+.post-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.post-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ddd;
+  margin-right: 12px;
+}
+
+.post-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.create-post {
+  background: white;
+  padding: 16px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.create-post textarea {
+  width: 100%;
+  min-height: 80px;
+  padding: 8px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  resize: vertical;
+}

@@ -1,0 +1,36 @@
+.feed-container {
+  padding: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.feed-posts {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.post-card {
+  background: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.post-content {
+  margin-bottom: 1rem;
+  color: #1c1e21;
+}
+
+.post-meta {
+  display: flex;
+  gap: 1rem;
+  color: #65676b;
+  font-size: 0.9rem;
+}
+
+.loading-text {
+  text-align: center;
+  color: #65676b;
+  padding: 2rem;
+}
